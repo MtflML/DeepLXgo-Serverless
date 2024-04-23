@@ -38,6 +38,5 @@ func main() {
 			log.Fatal("Failed to start web service:", err)
 		}
 	}()
-	// 监听退出
-	exit()
+
 }
