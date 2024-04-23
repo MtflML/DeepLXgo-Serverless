@@ -6,6 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	“os"
 )
 
 func main() {
@@ -38,5 +39,5 @@ func main() {
 		}
 	}()
 	// 监听退出
-	exit(server)
+	exit()
 }
