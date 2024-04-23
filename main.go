@@ -32,11 +32,18 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
+	server := &http.Server{
+		Addr:    ":"+port,
+		Handler: r,
+	}
 
 	go func() {
 		if err := http.ListenAndServe(":"+port, r); err != nil {
 			log.Fatal("Failed to start web service:", err)
 		}
 	}()
+
+	// 监听退出
+	exit(server)
 
 }
