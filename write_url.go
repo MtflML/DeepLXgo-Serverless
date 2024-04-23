@@ -251,7 +251,7 @@ func GenerateURLList() []string {
 		"http://fenghua.site:1188/translate",
 		"https://api.deeplx.org/translate",
 		"https://deepl.arthals.ink/translate",
-		"http://deepl.arthals.ink/translate"
+		"http://deepl.arthals.ink/translate",
 	}
 	
 	return urlList
