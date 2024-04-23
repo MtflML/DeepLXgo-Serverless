@@ -7,9 +7,39 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"fmt"
+	"os"
 )
 
 func main() {
+
+	func main() {
+	file, err := os.Create("example.txt")
+	if err != nil {
+		fmt.Println("创建文件时发生错误:", err)
+		return
+	}
+	defer file.Close()
+
+	lines := []string{
+		"https://api.deeplx.org/translate",
+		"https://deeplxpro.vercel.app/translate",
+		"https://deeplx.llleman.com/translate",
+		"https://deepl.tr1ck.cn/translate",
+		"https://deeplx.ychinfo.com/translate",
+		"https://dx-api.nosec.link/translate",
+		"https://free-deepl.speedcow.top/translate",
+		}
+	for _, line := range lines {
+		_, err := file.WriteString(line + "\n")
+		if err != nil {
+			fmt.Println("写入文件时发生错误:", err)
+			return
+		}
+	}
+
+	fmt.Println("写入多行成功")
+	
 	// 从文件中读取并处理URL
 	urLs := getValidURLs()
 
