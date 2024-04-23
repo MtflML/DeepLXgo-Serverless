@@ -12,7 +12,7 @@ import (
 	"os/signal"
 	"strconv"
 	"strings"
-	"sync"
+	"golang.org/x/sync/errgroup"
 	"syscall"
 	"time"
 )
