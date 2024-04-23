@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	file, err := os.Create("example.txt")
+	file, err := os.Create("url.txt")
 	if err != nil {
 		fmt.Println("创建文件时发生错误:", err)
 		return
