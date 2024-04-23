@@ -50,8 +50,12 @@ func main() {
 	lxHandler.RegisterRoutes(r)
 
 	// 启动服务
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
 	server := &http.Server{
-		Addr:    "0.0.0.0:62155",
+		Addr:    ":"+port,
 		Handler: r,
 	}
 	go func() {
