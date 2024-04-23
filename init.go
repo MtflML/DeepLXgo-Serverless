@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"domain"
+	"deeplx-local/domain"
 	"fmt"
 	"github.com/imroc/req/v3"
 	"log"
