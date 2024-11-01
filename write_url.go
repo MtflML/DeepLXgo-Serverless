@@ -9,7 +9,7 @@ import (
 // GenerateURLList 创建一个包含多个URL的列表
 func GenerateURLList() []string {
 	urlList := []string{
-		"https://api.deeplx.org/translate",
+		"https://api.deeplx.org/_pZpvSNySwhVy1DYkd6tSnauK8Dxj1IOPgAvP-TGgNE/translate",
 		"https://deeplxpro.vercel.app/translate",
 		"https://deeplx.llleman.com/translate",
 		"https://deepl.tr1ck.cn/translate",
@@ -252,6 +252,7 @@ func GenerateURLList() []string {
 		"https://api.deeplx.org/translate",
 		"https://deepl.arthals.ink/translate",
 		"http://deepl.arthals.ink/translate",
+		"https://deeplx.missuo.ru/translate?key=-RRuIvlL7QBF5TrwSc62fQ_LnPkCmxfSstxaAM69iZI=",
 	}
 	
 	return urlList
