@@ -10,6 +10,7 @@ import (
 func GenerateURLList() []string {
 	urlList := []string{
 		"https://api.deeplx.org/_pZpvSNySwhVy1DYkd6tSnauK8Dxj1IOPgAvP-TGgNE/translate",
+		"https://deeplx.smnet.io/translate",
 		"https://deeplx.doi9.top/translate",
 		"https://deeplx.qninq.cn/translate",
 		"https://deeplx.niubipro.com/translate",
