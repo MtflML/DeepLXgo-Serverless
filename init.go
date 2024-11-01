@@ -34,14 +34,14 @@ func getValidURLs() []string {
 	}
 
 	urls := strings.Split(string(content), "\n")
-	for i := range urls {
-		if !strings.HasSuffix(urls[i], "/translate") {
-			urls[i] += "/translate"
-		}
-		if !strings.HasPrefix(urls[i], "http") {
-			urls[i] = "http://" + urls[i]
-		}
-	}
+	// for i := range urls {
+	// 	if !strings.HasSuffix(urls[i], "/translate") {
+	// 		urls[i] += "/translate"
+	// 	}
+	// 	if !strings.HasPrefix(urls[i], "http") {
+	// 		urls[i] = "http://" + urls[i]
+	// 	}
+	// }
 	// 去重
 	distinctURLs(&urls)
 	// 保存处理后的URL
