@@ -12,7 +12,6 @@ func GenerateURLList() []string {
 		"https://api.deeplx.org/_pZpvSNySwhVy1DYkd6tSnauK8Dxj1IOPgAvP-TGgNE/translate",
 		"https://deeplxpro.vercel.app/translate",
 		"https://deeplx.llleman.com/translate",
-		"https://deepl.tr1ck.cn/translate",
 		"https://deeplx.ychinfo.com/translate",
 		"https://dx-api.nosec.link/translate",
 		"https://free-deepl.speedcow.top/translate",
