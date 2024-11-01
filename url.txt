@@ -233,6 +233,13 @@ http://46.8.19.173:1188/translate
 http://fenghua.site:1188/translate
 https://deepl.arthals.ink/translate
 http://deepl.arthals.ink/translate
+"http://38.175.202.113:1188/translate",
+"https://mikeee-deeplx.hf.space/translate",
+"https://deeplx.dattw.eu.org/translate",
+"http://142.171.19.149:9000/translate",
+"http://138.68.240.43:1188/translate",
+"https://deeplx.smnet.io/translate",
+"http://142.171.18.103:1188/translate",
 "https://deeplx.niubipro.com/translate",
 "https://deeplx-serverless.vercel.app/translate",
 "https://api.deeplx.org/_pZpvSNySwhVy1DYkd6tSnauK8Dxj1IOPgAvP-TGgNE/translate",
