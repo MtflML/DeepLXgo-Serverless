@@ -11,6 +11,7 @@ func GenerateURLList() []string {
 	urlList := []string{
 		"https://api.deeplx.org/_pZpvSNySwhVy1DYkd6tSnauK8Dxj1IOPgAvP-TGgNE/translate",
 		"https://deeplx.smnet.io/translate",
+		"https://deeplx-serverless.vercel.app/translate",
 		"http://d.lfh.icu/translate",
 		"https://deeplx-2dn.pages.dev:443/translate",
 		"https://deeplx.mingming.dev:443/translate",
