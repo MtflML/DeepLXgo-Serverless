@@ -26,7 +26,6 @@ func GenerateURLList() []string {
 		"http://138.2.11.53:1188/translate",
 		"http://132.226.232.50:1188/translate",
 		"http://123.56.13.17:1188/translate",
-		"https://deeplx-serverless.vercel.app/translate",
 		"http://106.14.155.58:18019/translate",
 		"http://47.76.34.130:20000/translate",
 		"http://156.254.115.38:20000/translate",
